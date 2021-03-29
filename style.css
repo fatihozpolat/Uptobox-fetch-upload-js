@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.card, #response {
+    width: 300px;
+    height: 50px;
+    background-color: #fefefe;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+}
+
+.card {
+    transform: translate(-50%, -100%);
+}
+
+#response {
+    height: auto;
+    transform: translate(-50%, 20px);
+}
